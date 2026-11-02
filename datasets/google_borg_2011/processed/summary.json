@@ -1,0 +1,187 @@
+{
+  "dataset": "google_borg",
+  "cleaning": {
+    "part_files": 3,
+    "raw_events": 688564,
+    "submit_schedule_finish_events_after_time_0": 356286,
+    "tasks_with_submit_schedule_finish": 69693,
+    "after_valid_requests": 69280,
+    "priority_source": "scheduling_class",
+    "google_priority_counts": {
+      "0": 2560,
+      "1": 2200,
+      "2": 63963,
+      "8": 454,
+      "9": 103
+    },
+    "google_scheduling_class_counts": {
+      "0": 62954,
+      "1": 5888,
+      "2": 438
+    },
+    "clean_tasks": 69280,
+    "raw_duration_s_median": 356.1,
+    "raw_wait_s_median": 1.81
+  },
+  "resource_scaling": {
+    "mode": "quantile",
+    "cpu_factor": 240.04801,
+    "ram_factor": 1005.65682,
+    "quantile": 0.95
+  },
+  "tasks_shrunk_to_fit_a_node": 0,
+  "duration_scaling": {
+    "time_factor": 0.01757,
+    "raw_p95_duration_s": 3414.840031
+  },
+  "target_offered_load": 0.967,
+  "window_sampling": "400 tasks sampled in time order from blocks of 4000 consecutive arrivals",
+  "full_clean_trace_after_scaling": {
+    "tasks": 69280,
+    "span_s": 263.65,
+    "offered_load": 135.263,
+    "cpu_req": {
+      "mean": 7.0,
+      "std": 6.0,
+      "min": 0.5,
+      "50%": 6.0,
+      "95%": 24.0,
+      "max": 60.0
+    },
+    "ram_req": {
+      "mean": 26.31,
+      "std": 16.49,
+      "min": 1.0,
+      "50%": 26.0,
+      "95%": 48.0,
+      "max": 128.0
+    },
+    "duration": {
+      "mean": 13.56,
+      "std": 21.35,
+      "min": 2.0,
+      "50%": 6.26,
+      "95%": 60.0,
+      "max": 120.0
+    },
+    "priority_share": {
+      "Batch": 0.909,
+      "Standard": 0.085,
+      "Latency-Critical": 0.006
+    }
+  },
+  "windows": [
+    {
+      "raw_offered_load": 141.856,
+      "gap_factor": 146.70593,
+      "tasks": 400,
+      "span_s": 165.14,
+      "offered_load": 0.967,
+      "cpu_req": {
+        "mean": 5.99,
+        "std": 0.23,
+        "min": 1.5,
+        "50%": 6.0,
+        "95%": 6.0,
+        "max": 6.0
+      },
+      "ram_req": {
+        "mean": 28.9,
+        "std": 4.08,
+        "min": 3.0,
+        "50%": 26.0,
+        "95%": 34.0,
+        "max": 34.0
+      },
+      "duration": {
+        "mean": 13.07,
+        "std": 8.94,
+        "min": 4.97,
+        "50%": 7.21,
+        "95%": 29.8,
+        "max": 45.56
+      },
+      "priority_share": {
+        "Batch": 0.998,
+        "Standard": 0.003
+      }
+    },
+    {
+      "raw_offered_load": 28.654,
+      "gap_factor": 29.63332,
+      "tasks": 400,
+      "span_s": 828.16,
+      "offered_load": 0.967,
+      "cpu_req": {
+        "mean": 13.27,
+        "std": 11.23,
+        "min": 0.5,
+        "50%": 15.0,
+        "95%": 46.5,
+        "max": 46.5
+      },
+      "ram_req": {
+        "mean": 29.88,
+        "std": 12.17,
+        "min": 1.0,
+        "50%": 32.0,
+        "95%": 48.0,
+        "max": 104.0
+      },
+      "duration": {
+        "mean": 50.42,
+        "std": 44.67,
+        "min": 2.0,
+        "50%": 21.27,
+        "95%": 102.26,
+        "max": 120.0
+      },
+      "priority_share": {
+        "Batch": 0.89,
+        "Standard": 0.105,
+        "Latency-Critical": 0.005
+      }
+    },
+    {
+      "raw_offered_load": 5.063,
+      "gap_factor": 5.23594,
+      "tasks": 400,
+      "span_s": 159.11,
+      "offered_load": 0.967,
+      "cpu_req": {
+        "mean": 6.93,
+        "std": 8.96,
+        "min": 1.5,
+        "50%": 3.5,
+        "95%": 24.0,
+        "max": 46.5
+      },
+      "ram_req": {
+        "mean": 12.49,
+        "std": 14.1,
+        "min": 2.0,
+        "50%": 8.0,
+        "95%": 48.0,
+        "max": 80.0
+      },
+      "duration": {
+        "mean": 17.39,
+        "std": 23.81,
+        "min": 2.0,
+        "50%": 5.88,
+        "95%": 84.74,
+        "max": 101.85
+      },
+      "priority_share": {
+        "Batch": 0.825,
+        "Standard": 0.16,
+        "Latency-Critical": 0.015
+      }
+    }
+  ],
+  "output_files": [
+    "/Users/crimson-ray/Downloads/DL_PROJECT/datasets/google_borg_2011/processed/google_borg_window_1.csv",
+    "/Users/crimson-ray/Downloads/DL_PROJECT/datasets/google_borg_2011/processed/google_borg_window_2.csv",
+    "/Users/crimson-ray/Downloads/DL_PROJECT/datasets/google_borg_2011/processed/google_borg_window_3.csv"
+  ]
+}

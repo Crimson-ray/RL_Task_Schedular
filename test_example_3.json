@@ -1,0 +1,58 @@
+{
+  "description": "Test Example 3: Cluster Saturation & Strategic Deferral (5 tasks). Demonstrates dynamic action masking and Action 6 (Defer / Hold in Queue) under severe cluster contention, followed by graceful completion as earlier jobs finish.",
+  "pre_allocate_cluster": [
+    { "node_id": 0, "cpu_used": 50.0, "ram_used": 100.0, "duration": 15.0 },
+    { "node_id": 1, "cpu_used": 50.0, "ram_used": 100.0, "duration": 15.0 },
+    { "node_id": 2, "cpu_used": 80.0, "ram_used": 50.0, "duration": 12.0 },
+    { "node_id": 3, "cpu_used": 80.0, "ram_used": 50.0, "duration": 12.0 },
+    { "node_id": 4, "cpu_used": 20.0, "ram_used": 230.0, "duration": 18.0 },
+    { "node_id": 5, "cpu_used": 20.0, "ram_used": 230.0, "duration": 18.0 }
+  ],
+  "tasks": [
+    {
+      "task_id": 1,
+      "arrival_time": 0.0,
+      "cpu_req": 8.0,
+      "ram_req": 8.0,
+      "duration": 10.0,
+      "priority": 1,
+      "deadline_slack": 2.0
+    },
+    {
+      "task_id": 2,
+      "arrival_time": 1.0,
+      "cpu_req": 8.0,
+      "ram_req": 8.0,
+      "duration": 10.0,
+      "priority": 1,
+      "deadline_slack": 2.0
+    },
+    {
+      "task_id": 3,
+      "arrival_time": 2.0,
+      "cpu_req": 40.0,
+      "ram_req": 32.0,
+      "duration": 15.0,
+      "priority": 2,
+      "deadline_slack": 2.5
+    },
+    {
+      "task_id": 4,
+      "arrival_time": 4.0,
+      "cpu_req": 12.0,
+      "ram_req": 24.0,
+      "duration": 14.0,
+      "priority": 1,
+      "deadline_slack": 2.0
+    },
+    {
+      "task_id": 5,
+      "arrival_time": 5.0,
+      "cpu_req": 16.0,
+      "ram_req": 16.0,
+      "duration": 12.0,
+      "priority": 0,
+      "deadline_slack": 3.0
+    }
+  ]
+}

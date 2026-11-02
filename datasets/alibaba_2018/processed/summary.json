@@ -1,0 +1,173 @@
+{
+  "dataset": "alibaba",
+  "cleaning": {
+    "raw_rows": 1000000,
+    "after_status_terminated": 983715,
+    "after_valid_times_and_resources": 929644,
+    "after_dedup": 929644,
+    "priority_rule": "duration <= 3s -> Critical, <= 30s -> Standard, else Batch",
+    "clean_tasks": 929644,
+    "raw_duration_s_median": 9.0,
+    "raw_instances_median": 1.0
+  },
+  "resource_scaling": {
+    "mode": "rank",
+    "reference": "synthetic WorkloadConfig, 20000 tasks, seed 0"
+  },
+  "tasks_shrunk_to_fit_a_node": 0,
+  "duration_scaling": {
+    "time_factor": 0.158311,
+    "raw_p95_duration_s": 379.0
+  },
+  "target_offered_load": 0.967,
+  "window_sampling": "400 tasks sampled in time order from blocks of 4000 consecutive arrivals",
+  "full_clean_trace_after_scaling": {
+    "tasks": 929644,
+    "span_s": 102316.46,
+    "offered_load": 3.277,
+    "cpu_req": {
+      "mean": 11.0,
+      "std": 6.77,
+      "min": 1.0,
+      "50%": 9.0,
+      "95%": 22.5,
+      "max": 24.0
+    },
+    "ram_req": {
+      "mean": 22.1,
+      "std": 13.56,
+      "min": 2.0,
+      "50%": 20.0,
+      "95%": 45.0,
+      "max": 48.0
+    },
+    "duration": {
+      "mean": 11.19,
+      "std": 22.64,
+      "min": 2.0,
+      "50%": 2.0,
+      "95%": 60.0,
+      "max": 120.0
+    },
+    "priority_share": {
+      "Batch": 0.299,
+      "Standard": 0.43,
+      "Latency-Critical": 0.271
+    }
+  },
+  "windows": [
+    {
+      "raw_offered_load": 0.249,
+      "gap_factor": 0.25708,
+      "tasks": 400,
+      "span_s": 127.47,
+      "offered_load": 0.967,
+      "cpu_req": {
+        "mean": 10.43,
+        "std": 6.2,
+        "min": 1.0,
+        "50%": 9.0,
+        "95%": 22.5,
+        "max": 24.0
+      },
+      "ram_req": {
+        "mean": 20.96,
+        "std": 12.75,
+        "min": 2.0,
+        "50%": 20.0,
+        "95%": 45.0,
+        "max": 48.0
+      },
+      "duration": {
+        "mean": 12.26,
+        "std": 25.85,
+        "min": 2.0,
+        "50%": 2.0,
+        "95%": 60.16,
+        "max": 120.0
+      },
+      "priority_share": {
+        "Batch": 0.253,
+        "Standard": 0.453,
+        "Latency-Critical": 0.295
+      }
+    },
+    {
+      "raw_offered_load": 0.199,
+      "gap_factor": 0.2059,
+      "tasks": 400,
+      "span_s": 135.57,
+      "offered_load": 0.967,
+      "cpu_req": {
+        "mean": 10.01,
+        "std": 7.03,
+        "min": 1.0,
+        "50%": 9.0,
+        "95%": 22.02,
+        "max": 24.0
+      },
+      "ram_req": {
+        "mean": 20.29,
+        "std": 14.07,
+        "min": 2.0,
+        "50%": 17.0,
+        "95%": 45.0,
+        "max": 48.0
+      },
+      "duration": {
+        "mean": 14.33,
+        "std": 24.13,
+        "min": 2.0,
+        "50%": 2.0,
+        "95%": 64.84,
+        "max": 120.0
+      },
+      "priority_share": {
+        "Batch": 0.335,
+        "Standard": 0.395,
+        "Latency-Critical": 0.27
+      }
+    },
+    {
+      "raw_offered_load": 0.338,
+      "gap_factor": 0.3499,
+      "tasks": 400,
+      "span_s": 178.09,
+      "offered_load": 0.967,
+      "cpu_req": {
+        "mean": 11.48,
+        "std": 7.05,
+        "min": 1.0,
+        "50%": 9.0,
+        "95%": 23.0,
+        "max": 24.0
+      },
+      "ram_req": {
+        "mean": 23.51,
+        "std": 13.73,
+        "min": 2.0,
+        "50%": 20.0,
+        "95%": 45.05,
+        "max": 48.0
+      },
+      "duration": {
+        "mean": 15.93,
+        "std": 30.67,
+        "min": 2.0,
+        "50%": 2.0,
+        "95%": 108.79,
+        "max": 120.0
+      },
+      "priority_share": {
+        "Batch": 0.285,
+        "Standard": 0.453,
+        "Latency-Critical": 0.263
+      }
+    }
+  ],
+  "output_files": [
+    "/Users/crimson-ray/Downloads/DL_PROJECT/datasets/alibaba_2018/processed/alibaba_window_1.csv",
+    "/Users/crimson-ray/Downloads/DL_PROJECT/datasets/alibaba_2018/processed/alibaba_window_2.csv",
+    "/Users/crimson-ray/Downloads/DL_PROJECT/datasets/alibaba_2018/processed/alibaba_window_3.csv"
+  ]
+}

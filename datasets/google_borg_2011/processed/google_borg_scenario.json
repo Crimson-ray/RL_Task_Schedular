@@ -1,0 +1,77 @@
+{
+  "description": "Google Borg cluster trace 2011: first 8 tasks of window 1 after preprocessing.",
+  "tasks": [
+    {
+      "task_id": 0,
+      "arrival_time": 0.0,
+      "cpu_req": 6.0,
+      "ram_req": 34.0,
+      "duration": 6.39,
+      "priority": 0,
+      "deadline": 19.17
+    },
+    {
+      "task_id": 1,
+      "arrival_time": 0.0,
+      "cpu_req": 6.0,
+      "ram_req": 34.0,
+      "duration": 6.16,
+      "priority": 0,
+      "deadline": 18.48
+    },
+    {
+      "task_id": 2,
+      "arrival_time": 0.0,
+      "cpu_req": 6.0,
+      "ram_req": 34.0,
+      "duration": 6.1,
+      "priority": 0,
+      "deadline": 18.3
+    },
+    {
+      "task_id": 3,
+      "arrival_time": 0.0,
+      "cpu_req": 6.0,
+      "ram_req": 34.0,
+      "duration": 6.29,
+      "priority": 0,
+      "deadline": 18.87
+    },
+    {
+      "task_id": 4,
+      "arrival_time": 0.0,
+      "cpu_req": 6.0,
+      "ram_req": 34.0,
+      "duration": 6.08,
+      "priority": 0,
+      "deadline": 18.24
+    },
+    {
+      "task_id": 5,
+      "arrival_time": 0.0,
+      "cpu_req": 6.0,
+      "ram_req": 34.0,
+      "duration": 6.5,
+      "priority": 0,
+      "deadline": 19.5
+    },
+    {
+      "task_id": 6,
+      "arrival_time": 0.0,
+      "cpu_req": 6.0,
+      "ram_req": 34.0,
+      "duration": 6.25,
+      "priority": 0,
+      "deadline": 18.75
+    },
+    {
+      "task_id": 7,
+      "arrival_time": 0.0,
+      "cpu_req": 6.0,
+      "ram_req": 34.0,
+      "duration": 6.1,
+      "priority": 0,
+      "deadline": 18.3
+    }
+  ]
+}

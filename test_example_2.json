@@ -1,0 +1,59 @@
+{
+  "description": "Test Example 2: Anti-Stranding Vector Packing Challenge (6 tasks). Alternating compute-heavy and memory-heavy tasks to test multi-resource cosine alignment and prevent stranded cluster capacity.",
+  "tasks": [
+    {
+      "task_id": 1,
+      "arrival_time": 0.0,
+      "cpu_req": 24.0,
+      "ram_req": 8.0,
+      "duration": 18.0,
+      "priority": 1,
+      "deadline_slack": 1.8
+    },
+    {
+      "task_id": 2,
+      "arrival_time": 0.5,
+      "cpu_req": 8.0,
+      "ram_req": 64.0,
+      "duration": 22.0,
+      "priority": 0,
+      "deadline_slack": 2.5
+    },
+    {
+      "task_id": 3,
+      "arrival_time": 1.5,
+      "cpu_req": 28.0,
+      "ram_req": 8.0,
+      "duration": 14.0,
+      "priority": 2,
+      "deadline_slack": 1.2
+    },
+    {
+      "task_id": 4,
+      "arrival_time": 2.0,
+      "cpu_req": 6.0,
+      "ram_req": 72.0,
+      "duration": 20.0,
+      "priority": 1,
+      "deadline_slack": 2.0
+    },
+    {
+      "task_id": 5,
+      "arrival_time": 3.0,
+      "cpu_req": 20.0,
+      "ram_req": 10.0,
+      "duration": 15.0,
+      "priority": 2,
+      "deadline_slack": 1.3
+    },
+    {
+      "task_id": 6,
+      "arrival_time": 3.5,
+      "cpu_req": 4.0,
+      "ram_req": 80.0,
+      "duration": 30.0,
+      "priority": 0,
+      "deadline_slack": 3.0
+    }
+  ]
+}

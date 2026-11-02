@@ -1,0 +1,52 @@
+{
+  "best_trial_name": "NeuraSched_Optimal_D3QN_128",
+  "best_fitness_score": -679.6,
+  "best_model_path": "checkpoints/best_d3qn_scheduler.pt",
+  "best_metrics": {
+    "makespan": 124.58,
+    "avg_turnaround_time": 9.91,
+    "p95_turnaround_time": 21.79,
+    "p99_turnaround_time": 47.86,
+    "avg_wait_time": 4.45,
+    "avg_cpu_utilization": 52.34,
+    "avg_ram_utilization": 44.16,
+    "stranded_resource_ratio": 22.48,
+    "sla_violation_rate": 40.58,
+    "sla_violations_count": 162.33,
+    "critical_sla_violation_rate": 59.48,
+    "total_tasks": 400.0,
+    "mean_decision_latency_us": 83.43
+  },
+  "all_trials": [
+    {
+      "trial_name": "NeuraSched_Optimal_D3QN_128",
+      "parameters": {
+        "trial_name": "NeuraSched_Optimal_D3QN_128",
+        "learning_rate": 0.002,
+        "hidden_dim": 128,
+        "num_layers": 2,
+        "weight_packing": 2.5,
+        "weight_sla": 5.0,
+        "weight_balance": 0.5,
+        "weight_speed": 3.0
+      },
+      "elapsed_seconds": 13.13,
+      "fitness_score": -679.6,
+      "metrics": {
+        "makespan": 124.58,
+        "avg_turnaround_time": 9.91,
+        "p95_turnaround_time": 21.79,
+        "p99_turnaround_time": 47.86,
+        "avg_wait_time": 4.45,
+        "avg_cpu_utilization": 52.34,
+        "avg_ram_utilization": 44.16,
+        "stranded_resource_ratio": 22.48,
+        "sla_violation_rate": 40.58,
+        "sla_violations_count": 162.33,
+        "critical_sla_violation_rate": 59.48,
+        "total_tasks": 400.0,
+        "mean_decision_latency_us": 83.43
+      }
+    }
+  ]
+}

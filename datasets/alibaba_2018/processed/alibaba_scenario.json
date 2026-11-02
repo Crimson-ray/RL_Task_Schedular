@@ -1,0 +1,77 @@
+{
+  "description": "Alibaba Cluster Trace v2018 batch tasks: first 8 tasks of window 1 after preprocessing.",
+  "tasks": [
+    {
+      "task_id": 0,
+      "arrival_time": 0.0,
+      "cpu_req": 14.0,
+      "ram_req": 27.0,
+      "duration": 3.48,
+      "priority": 1,
+      "deadline": 6.26
+    },
+    {
+      "task_id": 1,
+      "arrival_time": 0.04,
+      "cpu_req": 4.0,
+      "ram_req": 9.0,
+      "duration": 2.0,
+      "priority": 2,
+      "deadline": 2.44
+    },
+    {
+      "task_id": 2,
+      "arrival_time": 0.33,
+      "cpu_req": 19.0,
+      "ram_req": 39.0,
+      "duration": 3.64,
+      "priority": 1,
+      "deadline": 6.88
+    },
+    {
+      "task_id": 3,
+      "arrival_time": 1.34,
+      "cpu_req": 15.5,
+      "ram_req": 30.0,
+      "duration": 2.0,
+      "priority": 1,
+      "deadline": 4.94
+    },
+    {
+      "task_id": 4,
+      "arrival_time": 1.51,
+      "cpu_req": 17.5,
+      "ram_req": 38.0,
+      "duration": 4.12,
+      "priority": 1,
+      "deadline": 8.93
+    },
+    {
+      "task_id": 5,
+      "arrival_time": 1.59,
+      "cpu_req": 9.0,
+      "ram_req": 5.0,
+      "duration": 2.0,
+      "priority": 1,
+      "deadline": 5.19
+    },
+    {
+      "task_id": 6,
+      "arrival_time": 1.63,
+      "cpu_req": 15.5,
+      "ram_req": 33.0,
+      "duration": 2.0,
+      "priority": 2,
+      "deadline": 4.03
+    },
+    {
+      "task_id": 7,
+      "arrival_time": 1.63,
+      "cpu_req": 9.0,
+      "ram_req": 20.0,
+      "duration": 2.0,
+      "priority": 2,
+      "deadline": 4.03
+    }
+  ]
+}

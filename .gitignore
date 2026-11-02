@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# macOS
+.DS_Store
+Library/
+
+# Streamlit per-user credentials
+.streamlit/credentials.toml
+
+# Raw datasets (re-download with datasets/*/download.py)
+datasets/*/raw/

@@ -1,0 +1,41 @@
+{
+  "description": "Test Example 1: Multi-Tier Priority Burst (4 tasks). A rapid burst of mixed-priority tasks testing node specialization (compute-heavy, memory-heavy, and latency-critical acceleration).",
+  "tasks": [
+    {
+      "task_id": 1,
+      "arrival_time": 0.0,
+      "cpu_req": 8.0,
+      "ram_req": 16.0,
+      "duration": 20.0,
+      "priority": 0,
+      "deadline_slack": 3.0
+    },
+    {
+      "task_id": 2,
+      "arrival_time": 1.0,
+      "cpu_req": 32.0,
+      "ram_req": 8.0,
+      "duration": 12.0,
+      "priority": 2,
+      "deadline_slack": 1.2
+    },
+    {
+      "task_id": 3,
+      "arrival_time": 2.5,
+      "cpu_req": 4.0,
+      "ram_req": 96.0,
+      "duration": 25.0,
+      "priority": 1,
+      "deadline_slack": 1.8
+    },
+    {
+      "task_id": 4,
+      "arrival_time": 4.0,
+      "cpu_req": 8.0,
+      "ram_req": 8.0,
+      "duration": 8.0,
+      "priority": 2,
+      "deadline_slack": 1.3
+    }
+  ]
+}
